@@ -20,4 +20,4 @@ TUTORIAL PRÁTICO CRYPTOJACKING
 
 - Para finalizar o click em Deploy Branch;
 
-- pronto, a página já esta com o ataque de cryptojacking funcionando, agora é só esperar as vitimas.
+pronto, a página já esta com o ataque de cryptojacking funcionando, agora é só esperar as vitimas.
