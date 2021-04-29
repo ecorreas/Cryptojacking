@@ -8,7 +8,7 @@ TUTORIAL PRÁTICO CRYPTOJACKING
 
 - O primeiro passo é dar um fork nesse repositório, para você ter copia do repositório;
 
-- Crie uma conta no https://webminepool.com/, escolha o mode become a provider;
+- Crie uma conta no [WebMinePool](https://webminepool.com/), escolha o mode become a provider;
 
 - Em seguida faça o login;
 
@@ -16,7 +16,7 @@ TUTORIAL PRÁTICO CRYPTOJACKING
 
 - Cole na variável siteKey no arquivo index.html disponível na sua copia do repositório;
 
-- Crie uma conta em https://www.heroku.com/, após criar a conta verifique seu e-mail;
+- Crie uma conta em [Heroku](https://www.heroku.com/), após criar a conta verifique seu e-mail;
 
 - Click em Create a new app, de um nome para o app e uma região;
 
@@ -35,7 +35,7 @@ pronto, a página já esta com o ataque de cryptojacking funcionando, agora é s
 **Para o seu cryptojacking funcionar você deve desativar o bloqueador de _cryptominer_ do seu navegador.**
 
 
-Antes de iniciar, é recomendado ter uma conta *Provider* no site https://webminepool.com/. 
+Antes de iniciar, é recomendado ter uma conta *Provider* no site [WebMinePool](https://webminepool.com/). 
 
 Primeiro de tudo, vamos instalar nosso servidor em uma máquina Linux.
 
@@ -43,11 +43,15 @@ Primeiro de tudo, vamos instalar nosso servidor em uma máquina Linux.
 
 - Atualizar a lista de repositórios
 
+```
 #apt update
+```
 
 - Instalar o pacote apache2, que será nosso servidor
 
+```
 #apt install apache2
+```
 
 - Para testar seu servidor, abra um navegador e digite *localhost*
 
@@ -57,11 +61,15 @@ Primeiro de tudo, vamos instalar nosso servidor em uma máquina Linux.
 
 - Acesse o diretório em que nossa página será hospedada
 
+```
 $ cd /var/www/
+```
 
 - Vamos baixar o código para o nosso servidor
 
+```
 $ git clone https://github.com/ecorreas/Cryptojacking.git
+```
 
 - Agora temos que alterar o arquivo *index.html* e adicionar nossa *siteKey*
 
