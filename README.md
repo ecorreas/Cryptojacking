@@ -1,5 +1,7 @@
 TUTORIAL PRÁTICO CRYPTOJACKING
 
+
+
 **HOSPEDANDO UM CRYPTOJACKING NO SERVIDOR WEB**
 
 **Para o seu cryptojacking funcionar você deve desativar o bloqueador de _cryptominer_ do seu navegador.**
@@ -23,6 +25,9 @@ TUTORIAL PRÁTICO CRYPTOJACKING
 - Para finalizar o click em Deploy Branch;
 
 pronto, a página já esta com o ataque de cryptojacking funcionando, agora é só esperar as vitimas.
+
+
+
 
 
 **HOSPEDANDO UM CRYPTOJACKING NA SUA MÁQUINA**
