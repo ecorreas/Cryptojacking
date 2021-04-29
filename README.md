@@ -1,6 +1,6 @@
 TUTORIAL PRÁTICO CRYPTOJACKING
 
-HOSPEDANDO UM CRYPTOJACKING NO SERVIDOR WEB
+HOSPEDANDO UM CRYPTOJACKING NO SERVIDOR WEB **Para o seu cryptojacking funcionar você deve desativar o bloqueador de _cryptominer_ do seu navegador.**
 
 - O primeiro passo é dar um fork nesse repositório, para você ter copia do repositório;
 
