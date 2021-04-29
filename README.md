@@ -1,6 +1,6 @@
 TUTORIAL PRÁTICO CRYPTOJACKING
 
-- Fizemos um passo-a-passo de como implentar um ateque de cryptojacking
+HOSPEDANDO UM CRYPTOJACKING NO SERVIDOR WEB
 
 - O primeiro passo é dar um fork nesse repositório, para você ter copia do repositório;
 
