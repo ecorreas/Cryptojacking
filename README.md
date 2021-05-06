@@ -8,6 +8,7 @@ TUTORIAL PRÁTICO CRYPTOJACKING
 Foi testado nos seguintes navegadores:
 ```
 Mozilla Firefox 88.0
+90.0.4430.93
 ```
 
 - O primeiro passo é dar um fork nesse repositório, para você ter copia do repositório;
