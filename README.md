@@ -81,7 +81,7 @@ $ sudo systemctl start apache2
 - Abra um terminal e digite o seguinte comando:
 
 ```
-$ cd /var/www/ && git clone https://github.com/ecorreas/Cryptojacking.git
+$ cd /var/www/ && sudo git clone https://github.com/ecorreas/Cryptojacking.git
 
 ```
 
