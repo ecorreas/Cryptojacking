@@ -8,7 +8,7 @@ TUTORIAL PRÁTICO CRYPTOJACKING
 Foi testado nos seguintes navegadores:
 ```
 Mozilla Firefox 88.0
-90.0.4430.93
+Google Chrome 90.0.4430.93
 ```
 
 - O primeiro passo é dar um fork nesse repositório, para você ter copia do repositório;
@@ -45,6 +45,7 @@ pronto, a página já esta com o ataque de cryptojacking funcionando, agora é s
 Esta parte do tutorial foi testado no seguinte ambiente:
 
 ```
+Máquina Virtual - VMware Workstation 16
 Mozilla Firefox 78.10esr
 Kali Linux 20.04 Kernel: 5.9.0
 Apache/2.4.46
