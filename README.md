@@ -75,7 +75,7 @@ $ sudo apt install apache2
 $ sudo systemctl start apache2
 ```
 
-- Para testar seu servidor, abra o navegador e digite *localhost* na barra de endereço.
+- Para testar seu servidor, abra o navegador e digite `localhost` na barra de endereço.
 - Você deve ver uma página de boas-vindas do servidor Apache.
 
 - Temos agora que baixar o código do github disponibilizado.
@@ -96,5 +96,5 @@ $ sudo nano /var/www/html/Cryptojacking/index.html
 - Altere a variável *siteKey* da linha 9 substituindo pela *siteKey* obtida na aba *API Keys* do site da *WebMinePool*.
 
 - Se tudo ocorreu bem até aqui, seu cryptojacking está pronto para minerar.
-- Basta abrir seu navegador e acessar a url: *localhost/Cryptojacking/index.php*.
-- Ao digitar ```top``` no seu terminal, observe o processo chamado ```Web Content```, ele deve aparecer no topo da lista consumindo bastante CPU.
+- Basta abrir seu navegador e acessar a url: `localhost/Cryptojacking/index.php`.
+- Ao digitar ```top``` no seu terminal, observe o processo chamado `Web Content`, ele deve aparecer no topo da lista consumindo bastante CPU.
