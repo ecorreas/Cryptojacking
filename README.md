@@ -43,9 +43,11 @@ pronto, a página já esta com o ataque de cryptojacking funcionando, agora é s
 
 Esta parte do tutorial foi testado no seguinte ambiente:
 
-Navegador: ```Mozilla Firefox 78.10esr```
-Sistema Operacional: ```Kali Linux 20.04 Kernel: 5.9.0```
-Servidor web: ```Apache/2.4.46```
+```
+Mozilla Firefox 78.10esr
+Kali Linux 20.04 Kernel: 5.9.0
+Apache/2.4.46
+```
 
 Antes de iniciar, é recomendado ter uma conta *Provider* no site [WebMinePool](https://webminepool.com/). 
 
