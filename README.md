@@ -1,10 +1,14 @@
 TUTORIAL PRÁTICO CRYPTOJACKING
 
 
-
 **HOSPEDANDO UM CRYPTOJACKING NO SERVIDOR WEB**
 
-**Para o seu cryptojacking funcionar você deve desativar o bloqueador de _cryptominer_ do seu navegador.**
+**Para o seu cryptojacking funcionar, você deve desativar o bloqueador de _cryptominer_ do seu navegador.**
+
+Foi testado nos seguintes navegadores:
+```
+Mozilla Firefox 88.0
+```
 
 - O primeiro passo é dar um fork nesse repositório, para você ter copia do repositório;
 
@@ -27,54 +31,66 @@ TUTORIAL PRÁTICO CRYPTOJACKING
 pronto, a página já esta com o ataque de cryptojacking funcionando, agora é só esperar as vitimas.
 
 
+**Desativando o bloqueio de cryptominer do navegador**
 
+ 
+- Preferências -> Privacidade e Segurança -> Customizado -> Desmarcar a opção "Cryptominers"
 
 
 **HOSPEDANDO UM CRYPTOJACKING NA SUA MÁQUINA**
 
-**Para o seu cryptojacking funcionar você deve desativar o bloqueador de _cryptominer_ do seu navegador.**
+**Para o seu cryptojacking funcionar, você deve desativar o bloqueador de _cryptominer_ do seu navegador.**
 
+Esta parte do tutorial foi testado no seguinte ambiente:
+
+Navegador: ```Mozilla Firefox 78.10esr```
+Sistema Operacional: ```Kali Linux 20.04 Kernel: 5.9.0```
+Servidor web: ```Apache/2.4.46```
 
 Antes de iniciar, é recomendado ter uma conta *Provider* no site [WebMinePool](https://webminepool.com/). 
 
-Primeiro de tudo, vamos instalar nosso servidor em uma máquina Linux.
+Primeiro de tudo, vamos instalar nosso servidor.
 
 - Para isso, abra um terminal e digite os comandos abaixo:
 
-- Atualizar a lista de repositórios
+- Atualizar a lista de repositórios.
 
 ```
-#apt update
+$ sudo apt update
 ```
 
-- Instalar o pacote apache2, que será nosso servidor
+- Instalar o pacote apache2, que será nosso servidor.
 
 ```
-#apt install apache2
+$ sudo apt install apache2
 ```
 
-- Para testar seu servidor, abra um navegador e digite *localhost*
-
-- Temos agora que baixar o código do github disponibilizado
-
-- Em seu terminal, digite:
-
-- Acesse o diretório em que nossa página será hospedada
+- Devemos iniciar o processo do nosso servidor web.
 
 ```
-$ cd /var/www/
+$ sudo systemctl start apache2
 ```
 
-- Vamos baixar o código para o nosso servidor
+- Para testar seu servidor, abra o navegador e digite *localhost* na barra de endereço.
+- Você deve ver uma página de boas-vindas do servidor Apache.
+
+- Temos agora que baixar o código do github disponibilizado.
+
+- Abra um terminal e digite o seguinte comando:
 
 ```
-$ git clone https://github.com/ecorreas/Cryptojacking.git
+$ cd /var/www/ && git clone https://github.com/ecorreas/Cryptojacking.git
+
 ```
 
-- Agora temos que alterar o arquivo *index.html* e adicionar nossa *siteKey*
+- Agora temos que alterar o arquivo *index.html* e adicionar nossa *siteKey*.
 
-- Abra um editor de texto e altere a variável *siteKey* (linha 9) para a *siteKey* obtida na aba *API Keys* do site da *WebMinePool*.
+```
+$ sudo nano /var/www/html/Cryptojacking/index.html
+```
 
-Basta abrir no seu navegador o seguinte endereço: *localhost/index.html*
-Se tudo ocorreu certo, você verá seu consumo de CPU aumentar radicalmente.
+- Altere a variável *siteKey* da linha 9 substituindo pela *siteKey* obtida na aba *API Keys* do site da *WebMinePool*.
 
+- Se tudo ocorreu bem até aqui, seu cryptojacking está pronto para minerar.
+- Basta abrir seu navegador e acessar a url: *localhost/Cryptojacking/index.php*.
+- Ao digitar ```top``` no seu terminal, observe o processo chamado ```Web Content```, ele deve aparecer no topo da lista consumindo bastante CPU.
