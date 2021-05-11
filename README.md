@@ -10,7 +10,6 @@ Linux Mint 20 Cinnamon, Kernel: 5.4.0
 Foi testado nos seguintes navegadores:
 ```
 Mozilla Firefox 88.0
-Google Chrome 90.0.4430.93
 ```
 
 - O primeiro passo é dar um fork nesse repositório, para você ter copia do repositório;
