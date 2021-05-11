@@ -1,12 +1,15 @@
 TUTORIAL PRÁTICO CRYPTOJACKING
 
-O sistema usado na criação deste tutorial:
-Linux Mint 20 Cinnamon, Kernel: 5.4.0
 
 **HOSPEDANDO UM CRYPTOJACKING NO SERVIDOR WEB**
 
 **Para o seu cryptojacking funcionar, você deve desativar o bloqueador de _cryptominer_ do seu navegador.**
 
+O sistema usado na criação deste tutorial:
+```
+Linux Mint 20 Cinnamon
+Kernel: 5.4.0
+```
 Foi testado nos seguintes navegadores:
 ```
 Mozilla Firefox 88.0
