@@ -1,5 +1,8 @@
 TUTORIAL PRÁTICO CRYPTOJACKING
 
+O sistema usado na criação deste tutorial:
+Linux Mint 20 Cinnamon
+Kernel: 5.4.0
 
 **HOSPEDANDO UM CRYPTOJACKING NO SERVIDOR WEB**
 
@@ -72,7 +75,7 @@ $ sudo apt install apache2
 - Devemos iniciar o processo do nosso servidor web.
 
 ```
-$ sudo systemctl start apache2
+$ sudo service apache2 restart
 ```
 
 - Para testar seu servidor, abra o navegador e digite `localhost` na barra de endereço.
