@@ -85,7 +85,7 @@ $ sudo service apache2 restart
 - Abra um terminal e digite o seguinte comando:
 
 ```
-$ cd /var/www/ && sudo git clone https://github.com/ecorreas/Cryptojacking.git
+$ cd /var/www/html && sudo git clone https://github.com/ecorreas/Cryptojacking.git
 
 ```
 
