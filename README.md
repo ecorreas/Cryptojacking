@@ -1,8 +1,7 @@
 TUTORIAL PRÁTICO CRYPTOJACKING
 
 O sistema usado na criação deste tutorial:
-Linux Mint 20 Cinnamon
-Kernel: 5.4.0
+Linux Mint 20 Cinnamon, Kernel: 5.4.0
 
 **HOSPEDANDO UM CRYPTOJACKING NO SERVIDOR WEB**
 
