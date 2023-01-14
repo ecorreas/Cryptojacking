@@ -38,8 +38,8 @@ Pronto, a página já esta com o ataque de cryptojacking funcionando, agora é s
 \
 **Obs: Desativando o bloqueio de cryptominer do navegador**
  
-- Preferências -> Privacidade e Segurança -> Customizado -> Desmarcar a opção "Cryptominers"\
-\
+- Preferências -> Privacidade e Segurança -> Customizado -> Desmarcar a opção "Cryptominers"
+
 
 ## HOSPEDANDO UM CRYPTOJACKING NA SUA MÁQUINA
 
