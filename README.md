@@ -83,7 +83,7 @@ $ sudo service apache2 restart
 - Para testar seu servidor, abra o navegador e digite `localhost` na barra de endereço.
 - Você deve ver uma página de boas-vindas do servidor Apache.
 
-- Temos agora que baixar o código do github disponibilizado.
+- Agora clone este repositório.
 
 - Abra um terminal e digite o seguinte comando:
 
