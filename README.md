@@ -7,7 +7,7 @@ Linux Mint 20 Cinnamon
 Kernel: 5.4.0
 ```
 
-**HOSPEDANDO UM CRYPTOJACKING NO SERVIDOR WEB**
+## HOSPEDANDO UM CRYPTOJACKING NO SERVIDOR WEB
 
 **Para o seu cryptojacking funcionar, você deve desativar o bloqueador de _cryptominer_ do seu navegador.**
 
@@ -43,7 +43,7 @@ pronto, a página já esta com o ataque de cryptojacking funcionando, agora é s
 - Preferências -> Privacidade e Segurança -> Customizado -> Desmarcar a opção "Cryptominers"
 
 
-**HOSPEDANDO UM CRYPTOJACKING NA SUA MÁQUINA**
+## HOSPEDANDO UM CRYPTOJACKING NA SUA MÁQUINA
 
 **Para o seu cryptojacking funcionar, você deve desativar o bloqueador de _cryptominer_ do seu navegador.**
 
