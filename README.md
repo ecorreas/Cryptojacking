@@ -36,12 +36,11 @@ Mozilla Firefox 88.0
 
 Pronto, a página já esta com o ataque de cryptojacking funcionando, agora é só esperar as vítimas.\
 \
-\
 **Obs: Desativando o bloqueio de cryptominer do navegador**
  
 - Preferências -> Privacidade e Segurança -> Customizado -> Desmarcar a opção "Cryptominers"\
 \
-\
+
 ## HOSPEDANDO UM CRYPTOJACKING NA SUA MÁQUINA
 
 **Para o seu cryptojacking funcionar, você deve desativar o bloqueador de _cryptominer_ do seu navegador.**
