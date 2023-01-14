@@ -34,7 +34,7 @@ Mozilla Firefox 88.0
 
 - Para finalizar o click em Deploy Branch;
 
-pronto, a página já esta com o ataque de cryptojacking funcionando, agora é só esperar as vítimas.\
+Pronto, a página já esta com o ataque de cryptojacking funcionando, agora é só esperar as vítimas.\
 \
 \
 **Obs: Desativando o bloqueio de cryptominer do navegador**
